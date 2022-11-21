@@ -34,3 +34,8 @@ jobs:
       - name: Run test
         run: |
           make test
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pring hello world
+        run: python -c "print("Hello, World!")"        
